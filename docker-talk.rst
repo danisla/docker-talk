@@ -481,10 +481,6 @@ containers from being used as springboards into your network.
 # Deploying Containers
 ----------------------
 
-TODO: - Show ops-dev meltdown meme - Docker push to hub - Talk about
-github integration with Docker Hub - Talk about private registry - Show
-systemd example
-
 Running with ``systemd`` and a local repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -559,7 +555,8 @@ Questions ?
 ===========
 
 -  dan.isla@gmail.com
-    https://github.com/danisla
+    https://github.com/danisla/docker-talk
+    https://registry.hub.docker.com/u/danisla/ipython-revealjs/
 
 Convert Notebook to RST
 -----------------------
@@ -573,7 +570,7 @@ Convert Notebook to RST
 .. parsed-literal::
 
     [NbConvertApp] Converting notebook docker-talk.ipynb to rst
-    [NbConvertApp] Writing 882 bytes to docker-talk.rst
+    [NbConvertApp] Writing 13651 bytes to docker-talk.rst
 
 
 Convert Notebook and Start Slide Show
@@ -614,5 +611,5 @@ Convert Notebook to Reveal.js slides
 .. parsed-literal::
 
     [NbConvertApp] Converting notebook docker-talk.ipynb to slides
-    [NbConvertApp] Writing 229940 bytes to docker-talk.slides.html
+    [NbConvertApp] Writing 229894 bytes to docker-talk.slides.html
 
