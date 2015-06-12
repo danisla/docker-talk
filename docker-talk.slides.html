@@ -248,10 +248,19 @@ $ sudo shellinaboxd -s/:LOGIN -t --no-beep</code></pre>
 <p>Start the webserver with proxy to <code>shellinaboxd</code> at <code>/shell</code></p>
 
 <pre><code>$ python tape.py -p 8000 -P /shell=http://localhost:4200</code></pre>
-<hr>
-<h4 id="shellinabox">shellinabox<a class="anchor-link" href="#shellinabox">&#182;</a></h4><hr>
+
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Demo">Demo<a class="anchor-link" href="#Demo">&#182;</a></h1><hr>
 <p>
-<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="100%"></iframe>
+<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="400px"></iframe>
 </p>
 </div>
 </div>
@@ -455,19 +464,6 @@ $ sudo shellinaboxd -s/:LOGIN -t --no-beep</code></pre>
 
 </div>
 </div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Container-Environment">Container Environment<a class="anchor-link" href="#Container-Environment">&#182;</a></h2><hr>
-<p>
-<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="400px"></iframe>
-</p>
-</div>
-</div>
 </div></section>
     </section><section>
     <section>
@@ -525,19 +521,6 @@ ENTRYPOINT python -m SimpleHTTPServer</code></pre>
 <h3 id="Run-the-container-in-the-foreground">Run the container in the foreground<a class="anchor-link" href="#Run-the-container-in-the-foreground">&#182;</a></h3>
 <pre><code>$ docker run -it -P python-webserver</code></pre>
 
-</div>
-</div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Demo">Demo<a class="anchor-link" href="#Demo">&#182;</a></h2><hr>
-<p>
-<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="400px"></iframe>
-</p>
 </div>
 </div>
 </div></section><section>
@@ -607,19 +590,6 @@ $ docker pull rails:onbuild</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Lets-try-it">Lets try it<a class="anchor-link" href="#Lets-try-it">&#182;</a></h3><hr>
-<p>
-<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="400px"></iframe>
-</p>
-</div>
-</div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>Clone the repo:</p>
 
 <pre><code>$ git clone https://github.com/engineyard/todo</code></pre>
@@ -671,19 +641,6 @@ $ docker run -it --rm -p 8080:8080 go-api</code></pre>
 
 </div>
 </div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Demo">Demo<a class="anchor-link" href="#Demo">&#182;</a></h1><hr>
-<p>
-<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="400px"></iframe>
-</p>
-</div>
-</div>
 </div></section>
     </section><section>
     <section>
@@ -710,19 +667,6 @@ ADD server.js package.json /opt/app/
 ENTRYPOINT node server.js</code></pre>
 <h3 id="Caching">Caching<a class="anchor-link" href="#Caching">&#182;</a></h3><p>On subsequent builds, docker will only execute the <code>npm install</code> when <code>package.json</code> changes. A hash of the successful command execution is saved so anything prior the last changed line is skipped when building.</p>
 
-</div>
-</div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Demo">Demo<a class="anchor-link" href="#Demo">&#182;</a></h1><hr>
-<p>
-<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="400px"></iframe>
-</p>
 </div>
 </div>
 </div></section>
@@ -769,19 +713,6 @@ kibana4:
 <pre><code>$ docker-compose up</code></pre>
 <p><a href="https://github.com/deviantony/fig-elk/blob/master/docker-compose.yml">https://github.com/deviantony/fig-elk/blob/master/docker-compose.yml</a></p>
 
-</div>
-</div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Demo">Demo<a class="anchor-link" href="#Demo">&#182;</a></h1><hr>
-<p>
-<iframe class="shellinabox" src="http://localhost:8000/shell/" frameborder="1" width="100%" height="400px"></iframe>
-</p>
 </div>
 </div>
 </div></section>
@@ -990,7 +921,7 @@ WantedBy=multi-user.target</code></pre>
 <h2 id="Convert-Notebook-to-RST">Convert Notebook to RST<a class="anchor-link" href="#Convert-Notebook-to-RST">&#182;</a></h2>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="41">
+</div><div class="fragment" data-fragment-index="36">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1031,7 +962,7 @@ ipython nbconvert docker-talk.ipynb --to rst
 <h2 id="Convert-Notebook-and-Start-Slide-Show">Convert Notebook and Start Slide Show<a class="anchor-link" href="#Convert-Notebook-and-Start-Slide-Show">&#182;</a></h2>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="43">
+</div><div class="fragment" data-fragment-index="38">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1083,7 +1014,7 @@ ipython nbconvert <span class="se">\</span>
 <h2 id="Convert-Notebook-to-Reveal.js-slides">Convert Notebook to Reveal.js slides<a class="anchor-link" href="#Convert-Notebook-to-Reveal.js-slides">&#182;</a></h2>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="45">
+</div><div class="fragment" data-fragment-index="40">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1105,7 +1036,7 @@ ipython nbconvert docker-talk.ipynb --to slides
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>[NbConvertApp] Converting notebook docker-talk.ipynb to slides
-[NbConvertApp] Writing 229894 bytes to docker-talk.slides.html
+[NbConvertApp] Writing 229893 bytes to docker-talk.slides.html
 </pre>
 </div>
 </div>
