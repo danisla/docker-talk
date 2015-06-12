@@ -1,6 +1,3 @@
-# docker-talk
-Docker Talk made with IPython 3.x, shellinabox and Reveal.js
-
 # Running This Presentation
 
 Start [shellinabox](https://code.google.com/p/shellinabox/)
