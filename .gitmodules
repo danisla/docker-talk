@@ -1,0 +1,3 @@
+[submodule "examples/rails-app/todo"]
+	path = examples/rails-app/todo
+	url = https://github.com/engineyard/todo.git
